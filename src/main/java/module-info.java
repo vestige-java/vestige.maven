@@ -8,8 +8,6 @@ module fr.gaellalire.vestige.maven {
 
     requires org.apache.maven.resolver.util;
 
-    requires java.sql;
-
     exports org.apache.maven.settings.building;
 
     exports org.apache.maven.model;

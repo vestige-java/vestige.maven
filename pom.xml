@@ -212,7 +212,7 @@
                 </artifactItem>
               </artifactItems>
               <includes>**/*</includes>
-              <excludes>licenses,licenses/**/*,**/DefaultModelResolver.java,**/MavenAetherModule.java,**/DefaultPlexusCipher.java,**/DefaultSecDispatcher.java</excludes>
+              <excludes>licenses,licenses/**/*,**/DefaultModelResolver.java,**/MavenAetherModule.java,**/DefaultPlexusCipher.java,**/DefaultSecDispatcher.java,**/ExceptionUtils.java</excludes>
               <outputDirectory>${project.build.directory}/generated-sources/dep</outputDirectory>
             </configuration>
           </execution>
@@ -289,7 +289,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.version>3.2.5</maven.version>
-    <maven.resolver.version>java6-1</maven.resolver.version>
+    <maven.resolver.version>java6-2</maven.resolver.version>
   </properties>
   <distributionManagement>
     <repository>
