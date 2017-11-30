@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>fr.gaellalire.vestige</groupId>
   <artifactId>maven</artifactId>
-  <version>java6-2-SNAPSHOT</version>
+  <version>java6-2</version>
   <packaging>jar</packaging>
   <name>Maven</name>
   <build>
@@ -304,7 +304,7 @@
   <scm>
     <connection>scm:git:git@gaellalire.fr:gaellalire/maven.git</connection>
     <developerConnection>scm:git:git@gaellalire.fr:gaellalire/maven.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>maven-java6-2</tag>
   </scm>
   <dependencies>
     <dependency>
