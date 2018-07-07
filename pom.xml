@@ -1,10 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>fr.gaellalire.vestige</groupId>
-  <artifactId>maven</artifactId>
+  <artifactId>vestige.maven</artifactId>
   <version>java6-3-SNAPSHOT</version>
   <packaging>jar</packaging>
-  <name>Maven</name>
+  <name>Vestige :: Maven</name>
   <build>
     <defaultGoal>install</defaultGoal>
     <resources>
@@ -212,7 +212,7 @@
                 </artifactItem>
               </artifactItems>
               <includes>**/*</includes>
-              <excludes>licenses,licenses/**/*,**/DefaultModelResolver.java,**/MavenAetherModule.java,**/DefaultPlexusCipher.java,**/DefaultSecDispatcher.java,**/ExceptionUtils.java</excludes>
+              <excludes>licenses,licenses/**/*,**/DefaultModelResolver.java,**/MavenAetherModule.java,**/DefaultPlexusCipher.java,**/DefaultSecDispatcher.java,**/ExceptionUtils.java,**/DefaultSettingsBuilder.java</excludes>
               <outputDirectory>${project.build.directory}/generated-sources/dep</outputDirectory>
             </configuration>
           </execution>
@@ -294,16 +294,16 @@
   <distributionManagement>
     <repository>
       <id>gaellalire_nexus</id>
-      <url>http://gaellalire.fr/nexus/content/repositories/releases/</url>
+      <url>https://gaellalire.fr/nexus/content/repositories/releases/</url>
     </repository>
     <snapshotRepository>
       <id>gaellalire_nexus</id>
-      <url>http://gaellalire.fr/nexus/content/repositories/snapshots/</url>
+      <url>https://gaellalire.fr/nexus/content/repositories/snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
   <scm>
-    <connection>scm:git:git@gaellalire.fr:gaellalire/maven.git</connection>
-    <developerConnection>scm:git:git@gaellalire.fr:gaellalire/maven.git</developerConnection>
+    <connection>scm:git:git@gaellalire.fr:vestige/vestige.maven.git</connection>
+    <developerConnection>scm:git:git@gaellalire.fr:vestige/vestige.maven.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
   <dependencies>
