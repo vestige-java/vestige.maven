@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>fr.gaellalire.vestige</groupId>
   <artifactId>vestige.maven</artifactId>
-  <version>java6-3-SNAPSHOT</version>
+  <version>java6-3</version>
   <packaging>jar</packaging>
   <name>Vestige :: Maven</name>
   <build>
@@ -304,7 +304,7 @@
   <scm>
     <connection>scm:git:git@gaellalire.fr:vestige/vestige.maven.git</connection>
     <developerConnection>scm:git:git@gaellalire.fr:vestige/vestige.maven.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>vestige.maven-java6-3</tag>
   </scm>
   <dependencies>
     <dependency>
